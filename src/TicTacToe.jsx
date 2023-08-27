@@ -3,10 +3,12 @@ import Board from "./Board";
 
 const TicTacToe = () => {
   return (
-    <>
-      <h1>Tic Tac Toe!</h1>
-      <Board />
-    </>
+    <div className="game-wrapper">
+      <div>
+        <h1>Tic Tac Toe!</h1>
+        <Board />
+      </div>
+    </div>
   );
 };
 

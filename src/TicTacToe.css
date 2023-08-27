@@ -72,3 +72,10 @@
     margin-left: 20px;
   }
   
+  /* Added By Me */
+  .game-wrapper{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
